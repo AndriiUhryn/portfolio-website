@@ -29,12 +29,23 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Software Engineer at Booking.com",
+        location: "Amsterdam, Netherlands (Hybrid)",
+        description:
+            "Booking.com is all about the journey, helping you explore new challenges in a place where you can be your best self, with plenty of exciting twists, turns, and opportunities along the way.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Apr 2024 - present",
+        achievements: [
+            'Led the rewriting process of the Content Moderation internal tool, processing over 1 million daily items.',
+        ]
+    },
+    {
         title: "Senior Software Engineer at Elsevier",
         location: "Amsterdam, Netherlands (Hybrid)",
         description:
             "Elsevier is a global leader in information and analytics. I led and finalized the React migration of Expert Lookup. I was promoted to the core product SciVal and collaborated with the Principal and Staff Engineers to design and scope the work for the Next.js migration.",
         icon: React.createElement(CgWorkAlt),
-        date: "May 2022 - present",
+        date: "May 2022 - Apr 2024",
         achievements: [
             'Led and finalized the refactoring and sped up the development of new functionalities by 15x utilizing shared components.',
             'Introduced End-to-end Cypress tests and reduced production issues by 30%.',
@@ -164,6 +175,7 @@ export const skillsData = [
     "Google Cloud Platform",
     "Java",
     "Python",
+    "Perl",
     "Angular.js",
     "Vue.js",
     "WebSockets",
