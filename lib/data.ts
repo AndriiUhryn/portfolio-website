@@ -32,11 +32,13 @@ export const experiencesData = [
         title: "Software Engineer at Booking.com",
         location: "Amsterdam, Netherlands (Hybrid)",
         description:
-            "Booking.com is all about the journey, helping you explore new challenges in a place where you can be your best self, with plenty of exciting twists, turns, and opportunities along the way.",
+            "Booking.com is making It Easier for Everyone to Experience the World. I was part of the Content Moderation team. Built a new version of the \"Content standards and guidelines\" pages accessible by millions of users. Built an internal Next Gen Moderation Platform.",
         icon: React.createElement(CgWorkAlt),
         date: "Apr 2024 - present",
         achievements: [
-            'Led the rewriting process of the Content Moderation internal tool, processing over 1 million daily items.',
+            'Built a Next Gen Moderation Platform that handles 1 mln items a day.',
+            'Improved the overall quality of the projects by 2x while being a Quality Champion.',
+            'Improved the delivery and predictability of the team while being a Transformation Lead.'
         ]
     },
     {
